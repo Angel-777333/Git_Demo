@@ -9,9 +9,10 @@ public class Sample {
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\vellar church\\eclipse-workspace\\Selenium\\Driver1.exe");
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.facebook.com");
-	driver.manage().window().maximize();
+	driver.manage().window().fullscreen();
 	String c = driver.getTitle();
 	System.out.println(c);
+		
 	}
 
 }
